@@ -1,0 +1,87 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff2ee;
+}
+
+body {
+  background: url(./images/wallpaper3.jpg) repeat center center fixed;
+  background-size: cover;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#vanta {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > img {
+  width: 6em;
+  height: 6em;
+  border-radius: 100%;
+  border: 1px solid #e4c8c4;
+  box-shadow: #e4c8c4 0px 2px 8px 0px;
+}
+
+header > h1 {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px) saturation(160%) contrast(180%);
+  -webkit-backdrop-filter: blur(10px) saturation(160%) contrast(180%);
+  color: #7d1e1e;
+  padding: 0.3em 0.6em;
+  border: 1px solid rgb(212, 110, 104, 30%);
+}
+
+ul {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 auto;
+  padding: 4em;
+  max-width: 480px;
+}
+
+ul > li {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px) saturation(160%) contrast(180%);
+  -webkit-backdrop-filter: blur(10px) saturation(160%) contrast(180%);
+  border-radius: 10em;
+  padding: 1em;
+  margin: 1.4em 0;
+  box-shadow: #e4c8c4 0px 2px 8px 0px;
+}
+
+ul > li > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+a {
+  color: #7d1e1e;
+  text-decoration: none;
+}
