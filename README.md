@@ -1,5 +1,5 @@
-# Bio Link
-The bio link is a web page that groups different links to user accounts, for example Youtube, Spotify, Twitter...
+# Bio Link 🔥🔥🔥
+The Bio link is a web page that groups different links to user accounts, for example Youtube, Spotify, Twitter...
 
 You can put the Bio link as a link on your Instagram bio to help you share your other accounts with your followers
 
